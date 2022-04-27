@@ -1,60 +1,19 @@
-<!doctype html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-  <!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
-<!--  ----------------------------------------------------------------------  -->
+<h1>Ludwig van Beethoven</h1>
 
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
- function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
-</script>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuYHPyPZYfRRAc40TnVVXl3yZ51Q_0v4dvUzXIjVssV0shgH2N" alt="BEETHOVEN">
 
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
-<!--  ----------------------------------------------------------------------  -->
+<h2>
+    <a href="http://www.amclassical.com/mp3/amclassical_beethoven_fur_elise.mp3">fur elise
+    </a>
+</h2>
 
-<form action="https://osram-os--rundev2.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+<audio src="http://www.amclassical.com/mp3/amclassical_beethoven_fur_elise.mp3" controls></audio>
 
-<input type=hidden name='captcha_settings' value='{"keyname":"Google_Recaptcha_V2","fallback":"true","orgId":"00D9E000000EfLZ","ts":""}'>
-<input type=hidden name="orgid" value="00D9E000000EfLZ">
-<input type=hidden name="retURL" value="https://rundev2-osram-os-api.cs88.force.com/ThankYou">
+<h2>
+    <a  href="http://www.amclassical.com/mp3/amclassical_moonlight_sonata_movement_1.mp3">moonlight sonata movement 1
+    </a>
+</h2>
 
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-<!--  these lines if you wish to test in debug mode.                          -->
-<!--  <input type="hidden" name="debug" value=1>                              -->
-<!--  <input type="hidden" name="debugEmail"                                  -->
-<!--  value="sharmistha.sanyal@hcl.com">                                      -->
-<!--  ----------------------------------------------------------------------  -->
-
-<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
-
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-
-<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
-
-<label for="description">Description</label><textarea name="description"></textarea><br>
-
-Web First Name:<input  id="00N0O00000GRoJ8" maxlength="255" name="00N0O00000GRoJ8" size="20" type="text" /><br>
-
-Web Last Name:<input  id="00N0O00000GRoJ9" maxlength="255" name="00N0O00000GRoJ9" size="20" type="text" /><br>
-
-<input type="hidden"  id="external" name="external" value="1" /><br>
-
-<div class="g-recaptcha" data-sitekey="6LdUJ6UfAAAAAHm-wB3OhLOK1cD11R_fP8YJap6j"></div><br>
-<input type="submit" name="submit">
-
-</form>
-
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<audio src="http://www.amclassical.com/mp3/amclassical_moonlight_sonata_movement_1.mp3" controls></audio>
 </html>
